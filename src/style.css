@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    /* border: 1px solid #ff0000; */
+    flex-wrap: wrap;
+    height: auto;
+    width: 1160px;
+    align-items: center;
+    justify-content: center;
+}
+
+.listbox{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    align-items: center;
+    padding: 10px;
+}
+.listbox2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+span{
+    font: bold;
+}
